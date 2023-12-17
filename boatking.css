@@ -1,0 +1,137 @@
+body { background-color: #151611}
+
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/** this is for the header highlighting part **/
+
+.header {
+  overflow: hidden;
+  background-color: #151611;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: #99A395;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #FEE978;
+  color: black;
+}
+
+.header a.active {
+  color: #FEE978;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+/** background img opacity**/
+
+#background{
+    width: 1440px; height: 1080px; left: 0px;
+     top: 90px; position: absolute; mix-blend-mode: 
+     soft-light
+}
+/** vector placement **/
+
+#goback{
+    width: 84px; height: 68px; left: 80px; top: 118px; position: absolute;
+    width: 43px; height: 36px; 
+}
+
+/** text placement and sizes **/
+
+
+#text01{
+    width: 722px; 
+    height: 534px; 
+    left: 100px; 
+    top: 229px; 
+    position: absolute; 
+    color: #DAD2A3;
+     font-size: 24px; 
+    font-family: Familjen Grotesk;
+     font-weight: 400; 
+    word-wrap: break-word
+}
+
+/** picture placement and size **/
+
+#bigpic{
+    width: 400; height: 1050px; left: 1160px; top: 117px; position: absolute
+}
+
+#img2{
+    width: 360px; height: 215px; left: 490px; top: 798px; position: absolute
+}
+#img1{
+    width: 353px; height: 215px; left: 100px; top: 798px; position: absolute
+}
+
+/** img vector placement and sizes **/
+
+#tape1{
+    width: 200.98px; height: 69px; left: 880px; top: 895px; 
+    position: absolute; transform: rotate(-152.10deg); transform-origin: 0 0
+}
+#tape2{
+    width: 150px; height: 55px; left: 50px; top: 986px; position: absolute
+}
+
+/** text placement and sizes **/
+
+#boatking{
+    left: 53px; top: 0px; position: absolute; color: #DCD4A3; font-size: 40px; 
+    font-family: Familjen Grotesk; font-weight: 700; word-wrap: break-word;
+}
+
+#line {
+    width: 300px; height: 0px; 
+    left: 0px; top: 63px; 
+    position: absolute; border: 1px #F3D22A solid
+}
+
+#responsive 
+{
+width:80px;
+height: 70px;
+}
+/** location vector placement and sizes **/
+
+#location{left: 20px; top: 4px; position: absolute; 
+  color: #E2D8A5; font-size: 16px; font-family: Familjen Grotesk; 
+  font-weight: 400; word-wrap: break-word
+}
