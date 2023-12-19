@@ -6,6 +6,8 @@ console.log('Success: JavaScript from js/js.js running!')
 
 let responsive = document.getElementById('responsive');
 
+/** here once hovered over img it changes img  */
+
 function changeImage(x) {
   if (x === 1) {
     responsive.src = 'images/boatkinggg.jpg';
@@ -15,6 +17,9 @@ function changeImage(x) {
     responsive.src = 'images/lowking.jpg';
   }
 }
+
+/** here  its an animation.. once hovered over img it dimmes and opens up again  */
+
 
 let runAnimation = function () {
   responsive.classList.add("animate");
